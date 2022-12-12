@@ -27,7 +27,7 @@ void PrintArray(int[] array)
 
 //находим сумму элементов, стоящих на нечётных позициях
 
-int GetPositiveSumm(int[] array)
+int GetSumm(int[] array)
 {
     int summ = 0;
     int count = 0;
@@ -43,8 +43,8 @@ int GetPositiveSumm(int[] array)
 
 int[] arr = InitArray(6);
 PrintArray(arr);
-int positiveSumm = GetPositiveSumm(arr);
-Console.WriteLine($"сумма элементов, стоящих на нечётных позициях, равна {positiveSumm}");
+int Summ = GetSumm(arr);
+Console.WriteLine($"сумма элементов, стоящих на нечётных позициях, равна: {Summ}");
 
 
 
